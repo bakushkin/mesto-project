@@ -29,7 +29,7 @@
 /* Стили popup */
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/__close/popup__close.css);
-@import url(../blocks/popup/__window/popup__window.css);
+@import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__fieldset/popup__fieldset.css);
 @import url(../blocks/popup/__legend/popup__legend.css);
