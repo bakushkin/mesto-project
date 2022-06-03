@@ -1,9 +1,10 @@
 .elements {
-    margin: 0 auto 0;
+    margin: 0 auto 66px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 918px) {
     .elements {
         max-width: calc(100% - 19px*2);
+        margin: 0 auto 48px;
     }
 }

@@ -8,3 +8,9 @@
         margin: 28px auto 42px;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 918px) {
+    .header {
+        max-width: calc(100% - 19px*2);
+    }
+}

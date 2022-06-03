@@ -1,5 +1,5 @@
 .profile__subheading {
-    margin: 0;
+    margin: 0 auto 0 0;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -7,11 +7,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    .profile__subeading {
+    .profile__subheading {
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
         text-align: center;
+        margin: 0 auto;
     }
 }

@@ -13,3 +13,10 @@
         justify-content: center;
     }
 }
+
+
+@media screen and (min-width: 769px) and (max-width: 918px) {
+    .profile {
+        max-width: calc(100% - 19px*2);
+    }
+}
