@@ -3,8 +3,15 @@
     height: 27px;
     margin: 0 auto 30px;
     border: none;
-    border-bottom: 1px solid black;
-    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0, 0.2);
+    /* padding: 0; */
+}
+
+.popup__input:last-of-type {
+    margin: 0 auto 0;
+}
+
+.popup__input::placeholder {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -12,6 +19,14 @@
     color: black;
 }
 
-.popup__input:last-of-type {
-    margin: 0 auto 0;
+@media screen and (min-width: 320px) and (max-width: 540px) {
+    .popup__input {
+        width: calc(100% - 22px*2);
+        max-width: 238px;
+        margin: 0 0 30px 22px;
+    }
+    .popup__input:last-of-type {
+        margin: 0 0 0 22px;
+    }
+
 }
