@@ -8,9 +8,10 @@
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .profile__heading {
-        margin: 0 10px 14px 0;
+        margin: 0 10px 7px 0;
         font-size: 27px;
         line-height: 33px;
         text-align: center;
+        padding-left: 33px;
     }
 }

@@ -30,9 +30,11 @@
         width: calc(100% - 22px*2);
         max-width: 238px;
         margin: 0 0 30px 22px;
+        padding-left: 0px;
+        padding-bottom: 13px;
     }
     .popup__input:last-of-type {
-        margin: 0 0 0 22px;
+        margin: 0 0 10px 22px;
     }
 
 }
