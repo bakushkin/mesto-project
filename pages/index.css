@@ -28,10 +28,11 @@
 @import url(../blocks/footer/__copywright/footer__copywright.css);
 /* Стили popup */
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__close/popup__close.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__fieldset/popup__fieldset.css);
 @import url(../blocks/popup/__legend/popup__legend.css);
 @import url(../blocks/popup/__input/popup__input.css);
-@import url(../blocks/popup/__savebutton/popup__savebutton.css);
+@import url(../blocks/popup/__save-button/popup__save-button.css);

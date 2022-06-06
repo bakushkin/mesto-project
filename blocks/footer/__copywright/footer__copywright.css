@@ -12,5 +12,9 @@
     .footer__copywright {
         max-width: calc(100% - 19px*2);
         margin: 0 auto 36px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
     }
 }
