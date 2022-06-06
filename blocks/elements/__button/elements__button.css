@@ -17,5 +17,5 @@
 }
 
 .elements__button:active {
-    background-color: black;
+    background-image: url("../../../images/like_active.svg");
 }
